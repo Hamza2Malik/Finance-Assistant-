@@ -1,0 +1,29 @@
+{"intents":[
+    {"tag":"greetings",
+     "patterns":["hey","hello","hi","what's up"],
+     "responses":["hello Sir"],
+     "context_set":""
+    },
+    {"tag":"plot_chart",
+        "patterns":["i want you to plot a stock price","please plot a chart"],
+        "responses":["Plotting Chart"],
+        "context_set":""
+       },
+   
+    {"tag":"add_portfolio",
+        "patterns":["add stock to my portfolio","add a stock","add stock my list"],
+        "responses":["Adding Portfolio"],
+        "context_set":""
+       },
+    {"tag":"remove_portfolio",
+        "patterns":["remove stock to my portfolio","remove a stock","remove stock my list"],
+        "responses":["Removing Portfolio"],
+        "context_set":""
+       },
+    {"tag":"show_portfolio",
+        "patterns":["show my portfolio","show my investment"],
+        "responses":["Showing Portfolio"],
+        "context_set":""
+       } 
+]
+}
